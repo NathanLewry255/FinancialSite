@@ -1,0 +1,430 @@
+html{
+	margin: 0px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #B6F76B;
+}
+
+body{
+	margin: 0px;
+	background-color: #141414;
+}
+
+.PageBodyWrapper{
+	width: calc(100% - 40px);
+	background-color: #2e2e2e;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	height: auto;
+}
+
+@media only screen and (min-width: 1024px){
+	.PageBodySidebar{
+		height: 700px;
+		background-color: #4a4a4a;
+		margin: 20px 20px 0px 20px;
+		padding: 20px;
+		flex: 0 0 calc(30% - 80px);
+		width: calc(30% - 80px);
+	}
+	.PageBodyHalfCell{
+		height: 700px;
+		background-color: #4a4a4a;
+		margin: 20px 20px 0px 20px;
+		padding: 20px;
+		flex: 0 0 calc(50% - 80px);
+		width: calc(50% - 80px);
+	}
+
+	.PageBodyFullCell{
+		height: 700px;
+		background-color: #4a4a4a;
+		margin: 20px 20px 0px 20px;
+		padding: 20px;
+		flex: 0 0 calc(100% - 80px);
+		width: calc(100% - 80px);
+	}
+
+	.PageBodySidebarBody{
+		height: 700px;
+		background-color: #4a4a4a;
+		margin: 20px 20px 0px 20px;
+		padding: 20px;
+		flex: 0 0 calc(70% - 80px);
+		width: calc(70% - 80px);
+	}
+	
+	.IndexCell{
+		height: auto;
+	}
+	
+	#sideBarWithTab{
+		background-color: #2e2e2e; 
+		padding: 0px; 
+		flex: 0 0 calc(30% - 40px); 
+		width: calc(30% - 40px);
+	}
+	
+	#Title{
+		font-size: 40px;
+		font-weight: 700;
+	}
+
+	#NavLink{
+		font-size: 20px;
+		font-weight: 700;
+		margin-left: 50px;
+	}
+	
+	.NavBar{
+		background-color: #2e2e2e;
+		padding-left: 50px;
+		padding-right: 50px;
+		width: calc(100% - 100px);
+		height: 80px;
+		line-height: 2;
+		flex: 1 100%;
+	}
+	
+	h1{
+		font-size: 30px;
+		font-weight: 700;
+		margin: 0px;
+		color: #B6F76B;
+	}
+
+	h2{
+		display: inline;
+		font-size: 20px;
+		font-weight: 700;
+		margin: 0px;
+		color: #B6F76B;
+	}
+	
+	.ScrollableList{
+		height: calc(100% - 90px);
+		border: 1px solid #858585;
+		background-color: #2e2e2e;
+		padding: 20px;
+		margin: 10px 0px 10px 0px;
+		overflow-y: scroll;
+	}
+	
+	#tabSelect{
+		height: 43px; 
+		float: none; 
+		margin: 0px; 
+		padding: 0px; 
+		background-color: #2e2e2e;
+	}
+}
+@media only screen and (max-width: 1023px){
+	.PageBodySidebar{
+		height: auto;
+		background-color: #4a4a4a;
+		margin: 20px 20px 0px 20px;
+		padding: 20px;
+		flex: 0 0 calc(100% - 80px);
+		width: calc(100% - 80px);
+	}
+	.PageBodyHalfCell{
+		height: auto;
+		background-color: #4a4a4a;
+		margin: 20px 20px 0px 20px;
+		padding: 20px;
+		flex: 0 0 calc(100% - 80px);
+		width: calc(100% - 80px);
+	}
+
+	.PageBodyFullCell{
+		height: auto;
+		background-color: #4a4a4a;
+		margin: 20px 20px 0px 20px;
+		padding: 20px;
+		flex: 0 0 calc(100% - 80px);
+		width: calc(100% - 80px);
+	}
+
+	.PageBodySidebarBody{
+		height: auto;
+		background-color: #4a4a4a;
+		margin: 20px 20px 0px 20px;
+		padding: 20px;
+		flex: 0 0 calc(100% - 80px);
+		width: calc(100% - 80px);
+	}
+	
+	.IndexCell{
+		height: auto;
+	}
+	
+	#sideBarWithTab{
+		background-color: #2e2e2e; 
+		padding: 0px;
+		flex: 0 0 calc(100% - 40px);
+		width: calc(100% - 40px);
+	}
+	
+	#Title{
+		font-size: 60px;
+		font-weight: 700;
+	}
+
+	#NavLink{
+		font-size: 30px;
+		font-weight: 700;
+		margin-left: 50px;
+	}
+	
+	.NavBar{
+		background-color: #2e2e2e;
+		padding-left: 50px;
+		padding-right: 50px;
+		width: calc(100% - 100px);
+		height: 120px;
+		line-height: 2;
+		flex: 1 100%;
+	}
+	
+	h1{
+		font-size: 60px;
+		font-weight: 700;
+		margin: 0px;
+		color: #B6F76B;
+	}
+
+	h2{
+		display: inline;
+		font-size: 40px;
+		font-weight: 700;
+		margin: 0px;
+		color: #B6F76B;
+	}
+	
+	th{
+		font-size: 30px;
+	}
+	
+	.ScrollableList{
+		height: calc(100% - 120px);
+		border: 1px solid #858585;
+		background-color: #2e2e2e;
+		padding: 20px;
+		margin: 10px 0px 10px 0px;
+		overflow-y: scroll;
+	}
+	
+	#addRecordTab{
+		font-size: 40px;
+	}
+
+	#filterRecordTab{
+		font-size: 40px;
+	}
+	
+	#tabSelect{
+		height: 63px; 
+		float: none; 
+		margin: 0px 0px 2px 0px; 
+		padding: 0px; 
+		background-color: #2e2e2e;
+	}
+}
+
+table.HomePageRunDown{
+	text-align: left;
+	color: white;
+}
+
+table.HomePageRunDown th{
+	font-weight: 400;
+	padding-right: 10px;
+}
+
+table.DepositPageTable{
+	text-align: left;
+}
+
+table.DepositPageTable th{
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	font-weight: 400;
+	padding-right: 50px;
+	color: white;
+}
+
+table.TagsPageTable{
+	text-align: left;
+}
+
+table.TagsPageTable th{
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	font-weight: 400;
+	padding-right: 100px;
+	color: white;
+}
+
+th, tr{
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+a{
+	text-decoration: none;
+	color: #B6F76B;
+}
+
+a:hover{
+	color: #E7F9D2;
+}
+
+#addRecordTab:hover{
+	background-color: #4a4a4a;
+	color: #E7F9D2;
+}
+
+#filterRecordTab:hover{
+	background-color: #4a4a4a;
+	color: #E7F9D2;
+}
+
+.RecordEditDeleteButton{
+	border: none;
+	color: #B6F76B;
+	background-color: #2e2e2e;
+	margin-right: 5px;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+input.RecordEditDeleteButton{
+	border: none;
+	color: #B6F76B;
+	background-color: #2e2e2e;
+	width: auto;
+	padding: 0px;
+	margin: 0px 0px 0px 5px;
+	height: auto;
+	display: inline;
+}
+
+.RecordEditDeleteButton:hover{
+	cursor: pointer;
+}
+
+.Dot {
+	position: relative;
+	top: 2px;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.Test{
+	border-radius: 10%;
+	padding: 0.5px 2px 0.5px 2px;
+	color: black;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.DropDown{
+	border: 1px solid #858585;
+	color: #B6F76B;
+	background-color: #2e2e2e;
+	width: 200px;
+	padding: 10px 20px 10px 20px;
+	margin: 10px 0px 10px 0px;
+}
+
+input{
+	border: 1px solid #858585;
+	color: #B6F76B;
+	background-color: #2e2e2e;
+	width: 200px;
+	padding: 10px 20px 10px 20px;
+	margin: 10px 0px 10px 0px;
+	height: 50px;
+}
+
+.NewTagButton{
+	border: 1px solid #858585;
+	color: #B6F76B;
+	background-color: #2e2e2e;
+	width: 200px;
+	padding: 10px 20px 10px 20px;
+	margin: 10px 0px 10px 0px;
+	height: 50px;
+	display:inline;
+}
+
+div.google-visualization-tooltip{
+	line-height: 2;
+	height: auto;
+	width: auto;
+	background-color: #2e2e2e;
+	border: 1px solid #B6F76B;
+	padding: 0px 0px 0px 5px;
+	box-shadow: none;
+}
+
+.google-visualization-tooltip-item {
+
+}
+
+input[type=color]{
+	padding: 0px;
+}
+
+input[type=checkbox]{
+	padding: 0px;
+	width: 15px;
+	height: 15px;
+	margin: 0px;
+	position: relative;
+	top: 4px;
+	margin-bottom: 5px;
+}
+
+input[type=checkbox]:hover, input[type=submit]:hover, input[type=date]:hover{
+	cursor: pointer;
+}
+
+select:hover{
+	cursor: pointer;
+}
+
+#tagDeleteButton:disabled{
+	background-color: #4a4a4a;
+	color: #858585;
+}
+
+#tagDeleteButton{
+	background-color: #2e2e2e;
+	color: #ff0000;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #141414;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #B6F76B;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #E7F9D2;
+}
